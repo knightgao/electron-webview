@@ -3,17 +3,17 @@ const { app, BrowserWindow,Menu } = require('electron')
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1024,
+    height: 720,
     // useContentSize: true,
     // titleBarStyle: 'hidden',
     webPreferences: {
       // preload: path.join(__dirname, 'preload.js')
     },
-    icon: 'assets/default.png'  // 窗口小图标
+    icon: 'assets/default.jpg'  // 窗口小图标
   })
 
-  mainWindow.loadURL('https://bill.devgaoy.cn/')
+  mainWindow.loadURL('https://gpt.51tyhealth.net/')
 }
 
 app.whenReady().then(() => {
