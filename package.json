@@ -7,7 +7,8 @@
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
-    "make:universal": "electron-forge make --arch=x64,arm64"
+    "make:win": "electron-forge make --arch=x64 --platform=win32",
+    "make:mac": "electron-forge make --arch=x64,arm64 --platform=darwin"
   },
   "keywords": [],
   "author": "knight.gao",
