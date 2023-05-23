@@ -11,14 +11,6 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {},
     },
-    // {
-    //   name: '@electron-forge/maker-zip',
-    //   platforms: ['darwin','linux'],
-    // },
-    // {
-    //   name: '@electron-forge/maker-deb',
-    //   config: {},
-    // },
     {
       name: '@electron-forge/maker-dmg',
       config: {
@@ -26,9 +18,5 @@ module.exports = {
         format: 'ULFO'
       }
     }
-    // {
-    //   name: '@electron-forge/maker-zip',
-    //   config: {},
-    // },
   ],
 };
