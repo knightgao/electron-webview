@@ -21,6 +21,7 @@
     "electron": "^24.3.0"
   },
   "dependencies": {
+    "@electron-forge/maker-dmg": "^6.1.1",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
